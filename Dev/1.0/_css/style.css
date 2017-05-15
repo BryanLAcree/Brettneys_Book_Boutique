@@ -1,23 +1,29 @@
 .PageContainer {
     align-content: center;
-    padding: 40px 5%;
+    padding: 5%;
+    margin: auto;
     max-width: 1000;
-    color: rebeccapurple;
+    color: #731472;
     font-family: sans-serif;
     font-weight: 100;
 }
 
 .BodyContainer {
-    padding: 10;
+    /*    padding: 10;*/
+    /*
     margin-top: 10;
     margin-bottom: 10;
+*/
     min-height: 650;
     vertical-align: middle;
+    object-position: center;
+    margin: auto;
+    background: #E6E6E6;
 }
 
 .PageTitle {
     text-align: left;
-    background: #b366ff;
+    background: #731472;
     font-weight: 100;
     font-size: 50px;
     color: beige;
@@ -27,23 +33,25 @@
 }
 
 .Toolbar {
-    background: #cc99ff;
+    background: #65AFDE;
     text-align: left;
 }
 
 .TB_Link {
     padding-left: 10px;
     padding-right: 25;
-    color: beige;
+    text-decoration: none;
+    color: #731472;
 }
 
 .TB_Link:hover {
-    font-weight: 200;
+    /*    font-weight: 200;*/
+    color: #F39323;
 }
 
 .PageHeading {
     font-weight: 100;
-    margin-top: 30px;
+    margin: 0;
     font-size: 30px;
 }
 
@@ -52,7 +60,7 @@
     font-weight: 100;
     font-size: 15px;
     text-align: center;
-    background: #b366ff;
+    background: #731472;
     color: beige;
     margin: 0 auto;
     /*    margin-top: 100;*/
@@ -127,9 +135,10 @@
 
 #StoreHeading {
     font-size: 35;
+    margin: 0;
 }
 
 #StoreLink {
     font-size: 35;
-    color: rebeccapurple;
+    color: #731472;
 }
